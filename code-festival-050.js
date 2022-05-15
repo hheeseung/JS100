@@ -8,9 +8,8 @@ function bubble(arr) {
   let temp;
 
   for (let i = 0; i < result.length - 1; i++) {
-    for (/* 빈칸을 채워주세요 */ let j = 0; j < result.length - 1; j++) {
+    for (let j = 0; j < result.length - 1; j++) {
       if (result[j] > result[j + 1]) {
-        // 빈칸을 채워주세요
         temp = result[j];
         result[j] = result[j + 1];
         result[j + 1] = temp;
